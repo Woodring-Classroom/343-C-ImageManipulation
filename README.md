@@ -10,7 +10,7 @@ Images are just grids of pixels.  The values for the pixels are usually light in
 
 When the intensity values are written to a file, they are converted to one or more bytes depending on the encoding.  A perfectly white pixel is made of full intensities of red, blue, and green.  In the file, it may look like this:
 
-``c
+```c
 FF FF FF
 ```
 
